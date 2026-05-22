@@ -1,7 +1,7 @@
 # X-Voice: Enabling Everyone to Speak 30 Languages via Zero-Shot Cross-Lingual Voice Cloning
 
 <p align="center">
-  <img width="350" alt="X-Voice" src="X-Voice.png" />
+  <img width="350" alt="X-Voice" src="X-Voice_icon.png" />
 </p>
 
 <a href="https://arxiv.org/abs/2605.05611" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-2605.05611-b31b1b.svg?logo=arXiv&style=for-the-badge" alt="Paper"></a>

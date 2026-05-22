@@ -1,5 +1,9 @@
 # X-Voice: Enabling Everyone to Speak 30 Languages via Zero-Shot Cross-Lingual Voice Cloning
 
+<p align="center">
+  <img width="200" alt="X-Voice" src="X-Voice.png" />
+</p>
+
 <a href="https://arxiv.org/abs/2605.05611" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-2605.05611-b31b1b.svg?logo=arXiv&style=for-the-badge" alt="Paper"></a>
 <a href="https://sunnyxrxrx.github.io/X-Voice-Demo/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-Demo%20Page-orange?labelColor=grey&logo=github&style=for-the-badge" alt="Demo"></a>
 <a href="https://huggingface.co/spaces/chenxie95/X-Voice" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Interactive%20Demo-yellow?labelColor=grey&logo=huggingface&style=for-the-badge" alt="HF Space"></a>

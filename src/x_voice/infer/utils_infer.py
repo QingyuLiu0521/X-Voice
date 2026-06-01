@@ -1487,8 +1487,7 @@ def infer_xvoice_droptext_process(
 
     duration_tensor = torch.tensor(durations, dtype=torch.long, device=device_name)
     max_len = max(len(ids) for ids in language_ids_list)
-    unknown_id = len(lang_to_id_map)
-    padded_lang_ids = [ids + [unknown_id] * (max_len - len(ids)) for ids in language_ids_list]
+    padded_lang_ids = [ids + [-1] * (max_len - len(ids)) for ids in language_ids_list]
     language_ids_tensor = torch.tensor(padded_lang_ids, dtype=torch.long, device=device_name)
     time_language_ids_tensor = torch.tensor(time_language_ids_list, dtype=torch.long, device=device_name)
     infer_mode_flag = next(model_obj.transformer.parameters()).dtype == torch.float16
